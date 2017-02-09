@@ -1,0 +1,9 @@
+.DS_Store
+venv/
+PYC
+.cache
+__pycache__/
+Paddle-repo
+paddle-old
+data/cifar-10-batches-py
+data/cifar-out

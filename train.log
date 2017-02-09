@@ -1,0 +1,31 @@
+I0209 12:18:27.595677  3615 Util.cpp:155] commandline: /usr/local/bin/../opt/paddle/bin/paddle_trainer --config=vgg_16_cifar.py --dot_period=10 --log_period=100 --test_all_data_in_one_period=1 --use_gpu=0 --trainer_count=1 --num_passes=1 --save_dir=./cifar_vgg_model 
+I0209 12:18:27.595818  3615 Util.cpp:130] Calling runInitFunctions
+I0209 12:18:27.596035  3615 Util.cpp:143] Call runInitFunctions done.
+[INFO 2017-02-09 12:18:27,718 layers.py:1890] channels=3 size=3072
+[INFO 2017-02-09 12:18:27,719 layers.py:1890] output size for __conv_0__ is 32 
+[INFO 2017-02-09 12:18:27,720 layers.py:1890] channels=64 size=65536
+[INFO 2017-02-09 12:18:27,721 layers.py:1890] output size for __conv_1__ is 32 
+[INFO 2017-02-09 12:18:27,723 layers.py:1985] output size for __pool_0__ is 16*16 
+[INFO 2017-02-09 12:18:27,724 layers.py:1890] channels=64 size=16384
+[INFO 2017-02-09 12:18:27,724 layers.py:1890] output size for __conv_2__ is 16 
+[INFO 2017-02-09 12:18:27,726 layers.py:1890] channels=128 size=32768
+[INFO 2017-02-09 12:18:27,727 layers.py:1890] output size for __conv_3__ is 16 
+[INFO 2017-02-09 12:18:27,728 layers.py:1985] output size for __pool_1__ is 8*8 
+[INFO 2017-02-09 12:18:27,729 layers.py:1890] channels=128 size=8192
+[INFO 2017-02-09 12:18:27,730 layers.py:1890] output size for __conv_4__ is 8 
+[INFO 2017-02-09 12:18:27,731 layers.py:1890] channels=256 size=16384
+[INFO 2017-02-09 12:18:27,732 layers.py:1890] output size for __conv_5__ is 8 
+[INFO 2017-02-09 12:18:27,733 layers.py:1890] channels=256 size=16384
+[INFO 2017-02-09 12:18:27,734 layers.py:1890] output size for __conv_6__ is 8 
+[INFO 2017-02-09 12:18:27,735 layers.py:1985] output size for __pool_2__ is 4*4 
+[INFO 2017-02-09 12:18:27,736 layers.py:1890] channels=256 size=4096
+[INFO 2017-02-09 12:18:27,737 layers.py:1890] output size for __conv_7__ is 4 
+[INFO 2017-02-09 12:18:27,739 layers.py:1890] channels=512 size=8192
+[INFO 2017-02-09 12:18:27,739 layers.py:1890] output size for __conv_8__ is 4 
+[INFO 2017-02-09 12:18:27,741 layers.py:1890] channels=512 size=8192
+[INFO 2017-02-09 12:18:27,741 layers.py:1890] output size for __conv_9__ is 4 
+[INFO 2017-02-09 12:18:27,743 layers.py:1985] output size for __pool_3__ is 2*2 
+[INFO 2017-02-09 12:18:27,743 layers.py:1985] output size for __pool_4__ is 1*1 
+[INFO 2017-02-09 12:18:27,746 networks.py:1466] The input order is [image, label]
+[INFO 2017-02-09 12:18:27,747 networks.py:1472] The output order is [__cost_0__]
+I0209 12:18:27.752532  3615 Trainer.cpp:170] trainer mode: Normal
